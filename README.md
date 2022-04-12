@@ -27,4 +27,4 @@ Design: https://react.theme-land.com/theme-five
 
 ## Authors
 
-Almira: [Github](https://github.com/AlmiraJasin) [LinkedIn](https://www.linkedin.com/in/almira-jasinskyte-2b6914190/) <br> Danielius: [Github](https://github.com/AkbnLearn) <br> Einoras: [Github](https://github.com/belauzas) <br> Laurynas: [Github](https://github.com/TayakiNoTenshi) <br> Melanija: [Github](https://github.com/melanijaa) [LinkedIn](https://www.linkedin.com/in/melanija-%C5%A1ibakovska-16a065234/)
+Almira: [Github](https://github.com/AlmiraJasin) [LinkedIn](https://www.linkedin.com/in/almira-jasinskyte-2b6914190/) <br> Danielius: [Github](https://github.com/AkbnLearn) <br> Einoras: [Github](https://github.com/einored) <br> Laurynas: [Github](https://github.com/TayakiNoTenshi) <br> Melanija: [Github](https://github.com/melanijaa) [LinkedIn](https://www.linkedin.com/in/melanija-%C5%A1ibakovska-16a065234/)
