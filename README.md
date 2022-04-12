@@ -27,4 +27,4 @@ Design: https://react.theme-land.com/theme-five
 
 ## Authors
 
-Rimantas: [Github](https://github.com/belauzas)
+Almira: [Github](https://github.com/belauzas) <br> Danielius: [Github](https://github.com/belauzas) <br> Einoras: [Github](https://github.com/belauzas) <br> Laurynas: [Github](https://github.com/belauzas) <br> Melanija: [Github](https://github.com/melanijaa)
