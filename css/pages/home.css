@@ -50,4 +50,33 @@
 /* blog: end */
 
 /* footer: start */
+
+footer {
+    width: 100%;
+    background-color: #113072;
+    background-image: url(/img/map.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+}
+
+.row {
+    position: relative;
+    background-color: aquamarine;
+}
+
+.cards {
+    width: 300px;
+}
+
+.certificate {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 /* footer: end */
