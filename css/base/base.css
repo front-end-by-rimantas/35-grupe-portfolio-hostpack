@@ -1,3 +1,9 @@
+:root {
+    --primary-light-blue-color: #00C3FF;
+    --btn-hover-dark-color: #111111;
+    --btn-white-details: #FFF;
+}
+
 body,
 body * {
     margin: 0;
