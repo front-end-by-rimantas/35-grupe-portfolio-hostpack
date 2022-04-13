@@ -1,0 +1,24 @@
+div {
+    margin: 50px;
+}
+
+.btn {
+    background-color: var(--btn-light-blue-color);
+    padding: 20px 20px 20px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--btn-white-details);
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    transition: 400ms;
+}
+
+.btn > svg {
+    background-color: var(--btn-white-details);
+    border-radius: 50%;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-dark-color);
+}
