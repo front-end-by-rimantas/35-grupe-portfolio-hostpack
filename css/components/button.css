@@ -31,3 +31,11 @@
 .btn:hover {
     background-color: var(--btn-hover-dark-color);
 }
+
+.btn > span > svg > path {
+    transition: 400ms;
+}
+
+.btn:hover > span > svg > path {
+    fill: var(--btn-hover-dark-color);
+}
