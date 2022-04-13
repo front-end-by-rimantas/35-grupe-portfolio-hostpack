@@ -1,0 +1,41 @@
+.btn-container {
+    display: flex;
+}
+
+.btn {
+    background-color: var(--primary-light-blue-color);
+    padding: 10px 8px 10px 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--btn-white-details);
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    transition: background-color 400ms;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn > .btn-text {
+    margin-right: 20px;
+}
+
+.btn > .arrow {
+    background-color: var(--btn-white-details);
+    border-radius: 50px;
+    padding: 10px;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: var(--btn-hover-dark-color);
+}
+
+.btn > span > svg > path {
+    transition: background-color 400ms;
+}
+
+.btn:hover > span > svg > path {
+    fill: var(--btn-hover-dark-color);
+}
