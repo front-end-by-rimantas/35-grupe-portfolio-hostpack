@@ -1,9 +1,4 @@
 :root {
-
-    --btn-light-blue-color: #00C3FF;
-    --btn-hover-dark-color: #111111;
-    --btn-white-details: #FFF;
-
     --half-gap: 10px;
     --gap: calc(2 * var(--half-gap));
     --col1: calc(100% / 12 - var(--gap));

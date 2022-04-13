@@ -3,7 +3,7 @@
 }
 
 .btn {
-    background-color: var(--btn-light-blue-color);
+    background-color: var(--primary-light-blue-color);
     padding: 10px 8px 10px 30px;
     font-size: 14px;
     text-transform: uppercase;
