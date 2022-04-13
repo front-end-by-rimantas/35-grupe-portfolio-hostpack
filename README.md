@@ -29,6 +29,6 @@ Design: https://www.themelooks.biz/demo/hostpack/html/preview/
 
 Almira: [Github](https://github.com/AlmiraJasin) [LinkedIn](https://www.linkedin.com/in/almira-jasinskyte-2b6914190/) <br>
 Danielius: [Github](https://github.com/AkbnLearn) [LinkedIn](https://www.linkedin.com/in/danielius-lubys-8b2749231/) <br>
-Einoras: [Github](https://github.com/einored) [LinkedIn](https://www.linkedin.com/in/einoras-redeckas-926684200/) <br>
+Einoras: [Github](https://github.com/einored) [LinkedIn](https://www.linkedin.com/in/einoras-redeckas-926684200/) [LinkedIn](https://www.linkedin.com/in/laurynas-navasaitis-942949b7/) <br>
 Laurynas: [Github](https://github.com/TayakiNoTenshi) <br>
 Melanija: [Github](https://github.com/melanijaa) [LinkedIn](https://www.linkedin.com/in/melanija-%C5%A1ibakovska-16a065234/)
