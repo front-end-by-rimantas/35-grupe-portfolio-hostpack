@@ -33,7 +33,7 @@
 }
 
 .btn > span > svg > path {
-    transition: 400ms;
+    transition: background-color 400ms;
 }
 
 .btn:hover > span > svg > path {
