@@ -14,9 +14,43 @@
 /* header: end */
 
 /* hero: start */
+.banner {
+    width: 100%;
+    padding: 0;
+    background-color: #339;
+    color: #fff;
+    display: inline-block;
+}
+
+.banner * {
+    background-color: transparent !important; /*delete !important (or the whole line) when the pink is gone*/
+}
+
+.banner > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner-cloud-text {
+    color: #00c3ff;
+}
+
+.banner-img-container {
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* hero: end */
 
 /* domains name search and price: start */
+.dn-search {
+    border: 1px #e8e8e8 solid;
+    max-width: 570px;
+}
 /* domains name search and price: end */
 
 /* install: start */
