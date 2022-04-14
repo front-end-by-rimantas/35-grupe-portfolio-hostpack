@@ -1,3 +1,15 @@
+:root {
+    --primary-light-blue: #00C3FF;
+    --primary-black: #111111;
+    --white: #FFF;
+    --dark-blue: #1045DE;
+    --orange: #FF9538;
+    --light-green: #1AE5BE;
+    --dark-orange: #FF433C;
+    --dark-text: #666;
+    --banner-background: #339;
+}
+
 body,
 body * {
     margin: 0;
