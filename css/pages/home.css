@@ -66,6 +66,29 @@
 /* Our best services: end */
 
 /* Start with Hostpack: start */
+.get-started {
+    font-size: 14px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.benefit {
+    display: flex;
+}
+
+.benefit > img {
+    
+
+}
+
+.benefit > p {
+    
+
+}
 /* Start with Hostpack: end */
 
 /* Hostpack services: start */
