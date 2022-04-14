@@ -8,22 +8,27 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "contributors": [ 
-    { "name": "Almira",
+  "contributors": [
+    {
+      "name": "Almira",
       "url": "https://github.com/AlmiraJasin"
     },
-    { "name": "Danielius",
+    {
+      "name": "Danielius",
       "url": "https://github.com/AkbnLearn"
-    }, 
-    { "name": "Einoras",
+    },
+    {
+      "name": "Einoras",
       "url": "https://github.com/einored"
     },
-    { "name": "Laurynas",
+    {
+      "name": "Laurynas",
       "url": "https://github.com/TayakiNoTenshi"
     },
-    { "name": "Melanija",
+    {
+      "name": "Melanija",
       "url": "https://github.com/melanijaa"
-    } 
+    }
   ],
   "license": "MIT",
   "devDependencies": {
