@@ -95,6 +95,16 @@
 /* Hostpack services: end */
 
 /* subscribe newsletter: start */
+.newsletter-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.newsletter-bg {
+    width: 100%;
+    object-fit: cover;
+}
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
