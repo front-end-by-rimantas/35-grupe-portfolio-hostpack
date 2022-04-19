@@ -3,12 +3,12 @@
 }
 
 .btn {
-    background-color: var(--primary-light-blue-color);
+    background-color: var(--primary-light-blue);
     padding: 10px 8px 10px 30px;
     font-size: 14px;
     text-transform: uppercase;
     text-decoration: none;
-    color: var(--btn-white-details);
+    color: var(--white);
     border-radius: 50px;
     font-family: 'Open Sans', sans-serif;
     transition: background-color 400ms;
@@ -22,14 +22,14 @@
 }
 
 .btn > .arrow {
-    background-color: var(--btn-white-details);
+    background-color: var(--white);
     border-radius: 50px;
     padding: 10px;
     display: flex;
 }
 
 .btn:hover {
-    background-color: var(--btn-hover-dark-color);
+    background-color: var(--primary-black);
 }
 
 .btn > span > svg > path {
@@ -37,5 +37,5 @@
 }
 
 .btn:hover > span > svg > path {
-    fill: var(--btn-hover-dark-color);
+    fill: var(--primary-black);
 }

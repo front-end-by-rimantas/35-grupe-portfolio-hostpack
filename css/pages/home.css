@@ -14,9 +14,43 @@
 /* header: end */
 
 /* hero: start */
+.banner {
+    width: 100%;
+    padding: 0;
+    background-color: var(--banner-background);
+    color: var(--white);
+    display: inline-block;
+}
+
+.banner * {
+    background-color: transparent !important; /*delete !important (or the whole line) when the pink is gone*/
+}
+
+.banner > .container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.banner-cloud-text {
+    color: var(--primary-light-blue);
+}
+
+.banner-img-container {
+    position: relative;
+}
+
+.banner-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 /* hero: end */
 
 /* domains name search and price: start */
+.dn-search {
+    border: 1px #e8e8e8 solid;
+    max-width: 570px;
+}
 /* domains name search and price: end */
 
 /* install: start */
@@ -32,6 +66,29 @@
 /* Our best services: end */
 
 /* Start with Hostpack: start */
+.get-started {
+    font-size: 14px;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.benefit {
+    display: flex;
+}
+
+.benefit > img {
+    
+
+}
+
+.benefit > p {
+    
+
+}
 /* Start with Hostpack: end */
 
 /* Hostpack services: start */
@@ -50,4 +107,33 @@
 /* blog: end */
 
 /* footer: start */
+
+footer {
+    width: 100%;
+    background-color: #113072;
+    background-image: url(/footer.img/map.png);
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+}
+
+.row {
+    position: relative;
+    background-color: aquamarine;
+}
+
+.cards {
+    width: 300px;
+}
+
+.certificate {
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 /* footer: end */
