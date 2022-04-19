@@ -3,6 +3,7 @@
 @import '../base/layout.css';
 
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 
 /* components */
 @import '../components/button.css';
@@ -86,28 +87,25 @@
 /* footer: start */
 
 footer {
-    position: relative;
     width: 100%;
     background-color: var(--footer-background);
     color: var(--white);
-    font-weight: 400;
-    font-size: 16px;
     line-height: calc(26 / 16);
 }
-/*
-.container {
-}
-*/
+
 .map-img {
     position: absolute;
-    top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1;
-    width: 1000px;
+    transform: translateX(-50%);
+    
+    max-width: 1000px;
+    
+    filter: opacity(15%);
 }
+
 /*
 .row {
+    1B3A77
 }
 */
 .footer-hostpack-icon {
@@ -174,7 +172,9 @@ a {
     text-decoration: none;
 }
 
-
+ul {
+    list-style: none;
+}
 
 
 
