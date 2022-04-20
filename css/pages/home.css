@@ -22,10 +22,6 @@
     display: inline-block;
 }
 
-.banner * {
-    background-color: transparent !important; /*delete !important (or the whole line) when the pink is gone*/
-}
-
 .banner > .container {
     padding-left: 0;
     padding-right: 0;
@@ -47,9 +43,26 @@
 /* hero: end */
 
 /* domains name search and price: start */
-.dn-search {
+.search-form {
     border: 1px #e8e8e8 solid;
-    max-width: 570px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input-field {
+    padding: 20px;
+    border: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex-grow: 1;
+    outline: none;
+}
+
+.search-form > .btn-container {
+    margin: 5px;
+    flex-grow: 0;
 }
 /* domains name search and price: end */
 
@@ -95,6 +108,30 @@
 /* Hostpack services: end */
 
 /* subscribe newsletter: start */
+.newsletter-container {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(/img/newsletter/call_to_action_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter-text {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.pillow-img {
+    position: absolute;
+    right: 9%;
+    top: 0;
+    transform: translateY(-50%);
+}
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
@@ -123,7 +160,6 @@ footer {
 
 .row {
     position: relative;
-    background-color: aquamarine;
 }
 
 .cards {
