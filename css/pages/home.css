@@ -80,13 +80,6 @@
     padding: 10px;
 }
 
-@property --num {
-    syntax: '<integer>';
-    initial-value: 0;
-    inherits: false;
-  }
-  
-
 .success-number{    
     font-family: "Open Sans",sans-serif;
     display: block;
