@@ -81,6 +81,7 @@
 /* Start with Hostpack: start */
 .get-started {
     font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-responsive {
@@ -93,15 +94,30 @@
     display: flex;
 }
 
-.benefit > img {
-    
-
+.container > .reversed {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.benefit > p {
-    
-
+@media (max-width: 991px) {
+    .container > .reversed {
+    flex-direction: column;
+    }
 }
+
+.get-started h2 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.get-started p {
+    font-size: 16px;
+    color: var(--dark-text);
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
 /* Start with Hostpack: end */
 
 /* Hostpack services: start */
