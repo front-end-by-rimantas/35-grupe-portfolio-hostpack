@@ -135,6 +135,18 @@
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
+.gdcl-header {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.gdcl-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-text);
+    text-align: center;
+}
 /* global data center locations: end */
 
 /* testimonials: start */
