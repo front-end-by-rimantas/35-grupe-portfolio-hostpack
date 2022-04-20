@@ -140,6 +140,7 @@
     font-weight: 900;
     text-align: center;
     color: var(--primary-black);
+    margin-bottom: 25px;
 }
 
 .gdcl-text {
@@ -147,6 +148,11 @@
     font-weight: 400;
     color: var(--dark-text);
     text-align: center;
+    margin-bottom: 37px;
+}
+
+.gdcl-map-container {
+    position: relative;
 }
 
 .gdcl-map-img {
@@ -162,35 +168,67 @@
     cursor: pointer;
 }
 
-.ping-greenland {
+.ping-greenland, .tag-greenland {
     left: 38.5%;
-    top: 7%;
+    top: 6%;
 }
 
-.ping-russia {
-    right: 21%;
+.ping-russia, .tag-russia {
+    left: 80%;
     top: 19%;
 }
 
-.ping-canada {
-    left: 11%;
+.ping-canada, .tag-canada {
+    left: 9.5%;
     top: 26%;
 }
 
-.ping-croatia {
+.ping-croatia, .tag-croatia {
     left: 50%;
     top: 39%;
 }
 
-.ping-brazil {
+.ping-brazil, .tag-brazil {
     left: 36%;
-    bottom: 29%;
+    top: 70%;
 }
 
-.ping-nz {
-    bottom: 6.5%;
-    right: 7.5%;
+.ping-nz, .tag-nz {
+    left: 94%;
+    top: 92%;
 }
+
+.country-tag {
+    position: absolute;
+    transform: translate(-50%, -140%);
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.tag-nz {
+    transform: translate(-50%, -125%);
+}
+
+.country-name {
+    color: var(--primary-black);
+    background-color: var(--white);
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(24,104,222,.1);
+    font-size: 16px;
+}
+
+.ping-pointer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: calc(50% - 5px);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid var(--white);
+}
+
+
 /* global data center locations: end */
 
 /* testimonials: start */
