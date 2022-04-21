@@ -22,10 +22,6 @@
     display: inline-block;
 }
 
-.banner * {
-    background-color: transparent !important; /*delete !important (or the whole line) when the pink is gone*/
-}
-
 .banner > .container {
     padding-left: 0;
     padding-right: 0;
@@ -47,9 +43,26 @@
 /* hero: end */
 
 /* domains name search and price: start */
-.dn-search {
+.search-form {
     border: 1px #e8e8e8 solid;
-    max-width: 570px;
+    background-color: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.input-field {
+    padding: 20px;
+    border: 0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    flex-grow: 1;
+    outline: none;
+}
+
+.search-form > .btn-container {
+    margin: 5px;
+    flex-grow: 0;
 }
 /* domains name search and price: end */
 
@@ -95,6 +108,30 @@
 /* Hostpack services: end */
 
 /* subscribe newsletter: start */
+.newsletter-container {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    background-image: url(/img/newsletter/call_to_action_bg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.newsletter-text {
+    font-size: 48px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+}
+
+.pillow-img {
+    position: absolute;
+    right: 9%;
+    top: 0;
+    transform: translateY(-50%);
+}
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
@@ -104,6 +141,78 @@
 /* testimonials: end */
 
 /* blog: start */
+.blog-post {
+    left: 100%;
+    transform: translateX(50%);
+    text-align: center;
+}
+
+.blog-title {
+    margin-bottom: 25px;
+    font-weight: 900;
+    font-size: 48px;
+    letter-spacing: -1;
+    margin-top: -9;
+}
+
+.blog-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #666;
+    line-height: calc(26 / 16);
+}
+
+.feature {
+    display: grid;
+    box-shadow: 0 2px 4px #0003;
+    border-radius: 10px;
+}
+
+.post-img {
+    max-width: 340px;
+}
+
+.blog-date {
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 25px;
+    text-transform: uppercase;
+    font-weight: 600px;
+    font-size: 12px;
+    color: var(--primary-light-blue);
+}
+
+a {
+    text-decoration: none;
+}
+
+.blog-name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #111;
+    transition: all 0.3s ease-in-out;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.blog-name:hover {
+    color: var(--primary-light-blue);
+}
+
+.read-more {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-left: 25px;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 15px;
+}
+
+.read-more:hover {
+    color: var(--primary-light-blue);
+}
+
 /* blog: end */
 
 /* footer: start */
@@ -123,7 +232,6 @@ footer {
 
 .row {
     position: relative;
-    background-color: aquamarine;
 }
 
 .cards {
