@@ -44,8 +44,8 @@
 
 /* domains name search and price: start */
 .search-form {
-    border: 1px #e8e8e8 solid;
-    background-color: #fff;
+    border: 1px var(--light-grey) solid;
+    background-color: var(--white);
     border-radius: 40px;
     display: flex;
     flex-wrap: nowrap;
@@ -58,6 +58,7 @@
     border-bottom-left-radius: 30px;
     flex-grow: 1;
     outline: none;
+    background-color: transparent;
 }
 
 .search-form > .btn-container {
@@ -154,7 +155,7 @@
 
 .newsletter-text {
     font-size: 48px;
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-weight: 700;
 }
@@ -191,7 +192,7 @@
 .blog-description {
     font-weight: 400;
     font-size: 16px;
-    color: #666;
+    color: var(--dark-text);
     line-height: calc(26 / 16);
 }
 
