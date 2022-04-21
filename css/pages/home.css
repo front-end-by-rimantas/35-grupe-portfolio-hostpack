@@ -44,8 +44,8 @@
 
 /* domains name search and price: start */
 .search-form {
-    border: 1px #e8e8e8 solid;
-    background-color: #fff;
+    border: 1px var(--light-grey) solid;
+    background-color: var(--white);
     border-radius: 40px;
     display: flex;
     flex-wrap: nowrap;
@@ -58,6 +58,7 @@
     border-bottom-left-radius: 30px;
     flex-grow: 1;
     outline: none;
+    background-color: transparent;
 }
 
 .search-form > .btn-container {
@@ -67,12 +68,86 @@
 /* domains name search and price: end */
 
 /* install: start */
+.container.one-click-install {
+    background-image: url(../../img/one-click-install/one-click-install.png);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container > .row.bendras {
+    margin-bottom: 0px;
+}
+.container > .row > .pirmas {
+    color: black;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 2em;
+}
+.container > .row > .antras {
+    color: grey;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    text-align: center;
+}
+.container > .row > .img.col12 > img {
+    width: 100%;
+    margin-top: -2em;
+}
+@media (max-width: 480px) {
+    .container > .row > .pirmas {
+        font-size: 1.5em;
+    }
+}
+.one-click h1 {
+    font-weight: 900;
+}
+.one-click p {
+    font-weight: 400;
+}
+
 /* install: end */
 
 /* hosting plans: start */
 /* hosting plans: end */
 
 /* review - success rating: start */
+.corners{
+    box-shadow: 0px 0px 30px var(--shadow);
+    border-radius: 10px;
+    background-image: url(../../img/succes-rating/funfact-pattern.png);
+    padding: 10px;
+}
+
+.success-number{    
+    font-family: "Open Sans",sans-serif;
+    display: block;
+    text-align: center!important;
+    font-size: 40px;
+    font-weight: 700;    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: --num 1s;
+    counter-reset: num var(--num);
+}
+
+.success-number::after{    
+    content: "+";
+    position: absolute;
+    font-size: 20px;
+}
+
+.success-name{
+    display: block;
+    text-align: center!important;
+    font-size: 21px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
 /* review - success rating: end */
 
 /* Our best services: start */
@@ -114,14 +189,14 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    background-image: url(./../../img/newsletter/call_to_action_bg.png);
+    background-image: url(../../img/newsletter/call_to_action_bg.png);
     background-size: cover;
     background-position: center;
 }
 
 .newsletter-text {
     font-size: 48px;
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-weight: 700;
 }
@@ -273,13 +348,13 @@
 .blog-description {
     font-weight: 400;
     font-size: 16px;
-    color: #666;
+    color: var(--dark-text);
     line-height: calc(26 / 16);
 }
 
 .feature {
     display: grid;
-    box-shadow: 0 2px 4px #0003;
+    box-shadow: 0 2px 4px var(--shadow-black);
     border-radius: 10px;
 }
 
@@ -297,14 +372,10 @@
     color: var(--primary-light-blue);
 }
 
-a {
-    text-decoration: none;
-}
-
 .blog-name {
     font-size: 24px;
     font-weight: 700;
-    color: #111;
+    color: var(--primary-black);
     transition: all 0.3s ease-in-out;
     margin-left: 25px;
     margin-right: 25px;
@@ -335,7 +406,7 @@ a {
 footer {
     width: 100%;
     background-color: #113072;
-    background-image: url(/footer.img/map.png);
+    background-image: url(../../footer.img/map.png);
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
