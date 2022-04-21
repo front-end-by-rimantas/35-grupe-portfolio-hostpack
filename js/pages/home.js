@@ -33,6 +33,17 @@
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
+function changeLocation(location)
+{
+    let countryList = document.getElementsByClassName("country-tag");
+    for(let i = 0; i < countryList.length; i++)
+    {
+        countryList[i].style.display = "none";
+    }
+
+    let focusCountry = document.getElementById(location);
+    focusCountry.style.display = "block";
+}
 /* global data center locations: end */
 
 /* testimonials: start */
