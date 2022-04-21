@@ -151,6 +151,15 @@
     margin-bottom: 37px;
 }
 
+.gdcl-learn {
+    color: var(--primary-black);
+    transition: all 0.5s;
+}
+
+.gdcl-learn:hover {
+    color: var(--primary-light-blue);
+}
+
 .gdcl-map-container {
     position: relative;
 }
@@ -199,10 +208,12 @@
 }
 
 .country-tag {
+    display: none;
     position: absolute;
     transform: translate(-50%, -140%);
     font-size: 15px;
     font-weight: 600;
+    transition: all 0.5s;
 }
 
 .tag-nz {
