@@ -148,7 +148,7 @@
     font-weight: 400;
     color: var(--dark-text);
     text-align: center;
-    margin-bottom: 37px;
+    margin-bottom: 39px;
 }
 
 .gdcl-learn {
@@ -168,15 +168,6 @@
     width: 100%;
 }
 
-.ping-dc {
-    width: 5px;
-    height: 5px;
-    border-radius: 3px;
-    background-color: var(--primary-light-blue);
-    position: absolute;
-    cursor: pointer;
-}
-
 .ping-greenland, .tag-greenland {
     left: 38.5%;
     top: 6%;
@@ -194,7 +185,7 @@
 
 .ping-croatia, .tag-croatia {
     left: 50%;
-    top: 39%;
+    top: 38%;
 }
 
 .ping-brazil, .tag-brazil {
@@ -205,6 +196,21 @@
 .ping-nz, .tag-nz {
     left: 94%;
     top: 92%;
+}
+
+.ping-dc {
+    border-radius: 8px;
+    padding: 7px;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-30%, -30%);
+}
+
+.colour-ping {
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--primary-light-blue);
 }
 
 .country-tag {
