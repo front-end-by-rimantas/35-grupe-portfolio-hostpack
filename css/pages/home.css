@@ -44,8 +44,8 @@
 
 /* domains name search and price: start */
 .search-form {
-    border: 1px #e8e8e8 solid;
-    background-color: #fff;
+    border: 1px var(--light-grey) solid;
+    background-color: var(--white);
     border-radius: 40px;
     display: flex;
     flex-wrap: nowrap;
@@ -58,6 +58,7 @@
     border-bottom-left-radius: 30px;
     flex-grow: 1;
     outline: none;
+    background-color: transparent;
 }
 
 .search-form > .btn-container {
@@ -147,14 +148,14 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    background-image: url(/img/newsletter/call_to_action_bg.png);
+    background-image: url(../../img/newsletter/call_to_action_bg.png);
     background-size: cover;
     background-position: center;
 }
 
 .newsletter-text {
     font-size: 48px;
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-weight: 700;
 }
@@ -191,13 +192,13 @@
 .blog-description {
     font-weight: 400;
     font-size: 16px;
-    color: #666;
+    color: var(--dark-text);
     line-height: calc(26 / 16);
 }
 
 .feature {
     display: grid;
-    box-shadow: 0 2px 4px #0003;
+    box-shadow: 0 2px 4px var(--shadow-black);
     border-radius: 10px;
 }
 
@@ -215,14 +216,10 @@
     color: var(--primary-light-blue);
 }
 
-a {
-    text-decoration: none;
-}
-
 .blog-name {
     font-size: 24px;
     font-weight: 700;
-    color: #111;
+    color: var(--primary-black);
     transition: all 0.3s ease-in-out;
     margin-left: 25px;
     margin-right: 25px;
@@ -253,7 +250,7 @@ a {
 footer {
     width: 100%;
     background-color: #113072;
-    background-image: url(/footer.img/map.png);
+    background-image: url(../../footer.img/map.png);
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
