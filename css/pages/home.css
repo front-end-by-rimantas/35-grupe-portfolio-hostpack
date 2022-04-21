@@ -148,7 +148,7 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-    background-image: url(/img/newsletter/call_to_action_bg.png);
+    background-image: url(../../img/newsletter/call_to_action_bg.png);
     background-size: cover;
     background-position: center;
 }
@@ -198,7 +198,7 @@
 
 .feature {
     display: grid;
-    box-shadow: 0 2px 4px #0003;
+    box-shadow: 0 2px 4px var(--shadow-black);
     border-radius: 10px;
 }
 
@@ -216,14 +216,10 @@
     color: var(--primary-light-blue);
 }
 
-a {
-    text-decoration: none;
-}
-
 .blog-name {
     font-size: 24px;
     font-weight: 700;
-    color: #111;
+    color: var(--primary-black);
     transition: all 0.3s ease-in-out;
     margin-left: 25px;
     margin-right: 25px;
@@ -254,7 +250,7 @@ a {
 footer {
     width: 100%;
     background-color: #113072;
-    background-image: url(/footer.img/map.png);
+    background-image: url(../../footer.img/map.png);
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
