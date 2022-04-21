@@ -210,6 +210,121 @@
 /* subscribe newsletter: end */
 
 /* global data center locations: start */
+.gdcl-header {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--primary-black);
+    margin-bottom: 25px;
+}
+
+.gdcl-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dark-text);
+    text-align: center;
+    margin-bottom: 39px;
+}
+
+.gdcl-learn {
+    color: var(--primary-black);
+    transition: all 0.5s;
+}
+
+.gdcl-learn:hover {
+    color: var(--primary-light-blue);
+}
+
+.gdcl-map-container {
+    position: relative;
+}
+
+.gdcl-map-img {
+    width: 100%;
+}
+
+.ping-greenland, .tag-greenland {
+    left: 38.5%;
+    top: 6%;
+}
+
+.ping-russia, .tag-russia {
+    left: 80%;
+    top: 19%;
+}
+
+.ping-canada, .tag-canada {
+    left: 9.5%;
+    top: 26%;
+}
+
+.ping-croatia, .tag-croatia {
+    left: 50%;
+    top: 38%;
+}
+
+.ping-brazil, .tag-brazil {
+    left: 36%;
+    top: 70%;
+}
+
+.ping-nz, .tag-nz {
+    left: 94%;
+    top: 92%;
+}
+
+.ping-dc {
+    border-radius: 8px;
+    padding: 7px;
+    position: absolute;
+    cursor: pointer;
+    transform: translate(-30%, -30%);
+}
+
+.colour-ping {
+    width: 5px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: var(--primary-light-blue);
+}
+
+.country-tag {
+    display: none;
+    position: absolute;
+    transform: translate(-50%, -140%);
+    font-size: 15px;
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.tag-croatia {
+    display: block;
+}
+
+.tag-nz {
+    transform: translate(-50%, -125%);
+}
+
+.country-name {
+    color: var(--primary-black);
+    background-color: var(--white);
+    padding: 8px 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(24,104,222,.1);
+    font-size: 16px;
+}
+
+.ping-pointer {
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: calc(50% - 5px);
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 10px solid var(--white);
+}
+
+
 /* global data center locations: end */
 
 /* testimonials: start */
