@@ -54,6 +54,47 @@
 /* domains name search and price: end */
 
 /* install: start */
+.container.one-click-install {
+    background-image: url(../../img/one-click-install/one-click-install.png);
+    color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container > .row.bendras {
+    margin-bottom: 0px;
+}
+.container > .row > .pirmas {
+    color: black;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: open sans, sans-serif;
+    font-size: 2em;
+}
+.container > .row > .antras {
+    color: grey;
+    font-family: Open Sans, sans-serif;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    text-align: center;
+}
+.container > .row > .img.col12 > img {
+    width: 100%;
+    margin-top: -2em;
+}
+@media (max-width: 480px) {
+    .container > .row > .pirmas {
+        font-size: 1.5em;
+    }
+}
+.one-click h1 {
+    font-weight: 900;
+}
+.one-click p {
+    font-weight: 400;
+}
+
 /* install: end */
 
 /* hosting plans: start */
