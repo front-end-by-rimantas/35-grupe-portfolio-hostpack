@@ -90,16 +90,13 @@ footer {
     width: 100%;
     background-color: var(--footer-background);
     color: var(--white);
-    line-height: calc(26 / 16);
-}
-/*
-.main-image {
+    line-height: 1.5;
     background-image: url(/img/footer/map.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1000px;
 }
-*/
+
 .hostpack {
     display: flex;
     flex-direction: column;
@@ -113,8 +110,7 @@ footer {
 }
 
 .footer-text {
-    font-size: 16px;
-    font-weight: 400;
+    font-size: 18px;
 }
 
 .fa-phone-square {
@@ -137,7 +133,7 @@ footer {
 }
 
 .footer-copyright {
-    font-size: 13px;
+    font-size: 15px;
 }
 
 ul {
@@ -152,19 +148,18 @@ a {
     color: var(--white);
     text-decoration: none;
     list-style: none;
+    font-size: 17px;
 }
 
 .footer-section-title {
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 30px;
     margin-bottom: 20px;
 }
 
 .footer-section-sub-title {
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 33px;
     margin-bottom: 20px;
-    font-weight: 700;
 }
 
 .badges {
@@ -217,9 +212,23 @@ a {
 .footer-certificate::before {
     content: '';
     display: inline-block;
-    width: 100%;
-    height: 3px;
     background-color: var( --footer-line);
+    width: 100%;
+    height: 1px;
+    margin-bottom: 20px;
 }
+
+.test {
+    display: flex;
+    gap: 220px;
+}
+
+.footer-terms {
+    color: var(--footer-blue);
+}
+
+.footer-certi-img {
+    width: 394px;
+    height: 34px;
 }
 /* footer: end */
