@@ -43,6 +43,12 @@
 /* hero: end */
 
 /* domains name search and price: start */
+.domain-name-container {
+    z-index: 1;
+    box-shadow: 0 0 25px var(--shadow);
+    border-radius: 10px;
+}
+
 .search-form {
     border: 1px var(--light-grey) solid;
     background-color: var(--white);
@@ -64,6 +70,39 @@
 .search-form > .btn-container {
     margin: 5px;
     flex-grow: 0;
+}
+
+.domain-prices {
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transition: all .5s ease-in-out;
+}
+
+@media (min-width: 1199px) {
+    .domain-prices {
+        gap: 20px 30px;
+    }
+}
+
+.dp-box {
+    padding: 20px 20px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(24,104,222,.05);
+}
+
+.domain-type {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.domain-price {
+    color: #70799f;
+    font-size: 18px;
+    font-weight: bold;
 }
 /* domains name search and price: end */
 
@@ -334,7 +373,7 @@
     background-color: var(--white);
     padding: 8px 15px;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(24,104,222,.1);
+    box-shadow: 0 0 30px var(--shadow);
     font-size: 16px;
 }
 
