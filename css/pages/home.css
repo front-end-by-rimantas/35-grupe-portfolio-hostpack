@@ -49,7 +49,7 @@
     border-radius: 10px;
 }
 
-.search-form {
+.button-form {
     border: 1px var(--light-grey) solid;
     background-color: var(--white);
     border-radius: 40px;
@@ -65,11 +65,43 @@
     flex-grow: 1;
     outline: none;
     background-color: transparent;
+    overflow: hidden;
 }
 
-.search-form > .btn-container {
+.button-form > .btn-container {
     margin: 5px;
     flex-grow: 0;
+}
+
+.button-form .btn-text {
+    transition: all .5s;
+}
+
+@media (max-width: 479px) {
+    .button-form .btn-text {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    .button-form .btn {
+        background-color: transparent;
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    .button-form .svg {
+        background-color: var(--primary-light-blue);
+    }
+
+    .button-form .arrow {
+        background-color: var(--primary-light-blue);
+    }
+
+    .button-form path {
+        fill: var(--white);
+    }
 }
 
 .domain-prices {
