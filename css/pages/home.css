@@ -15,16 +15,18 @@
 
 /* hero: start */
 .banner {
-    width: 100%;
     padding: 0;
-    background-color: var(--banner-background);
+    background-image: var(--banner-background);
+    width: 100%;
     color: var(--white);
     display: inline-block;
+    position: relative;
 }
 
-.banner > .container {
+.banner-container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
 }
 
 .banner-cloud-text {
@@ -40,11 +42,54 @@
     top: 0;
     left: 0;
 }
+
+.banner .btn:hover {
+    background-color: var(--white);
+}
+
+.banner .btn:hover path {
+    fill: var(--white);
+}
+
+.banner .btn:hover .btn-text {
+    color: var(--primary-light-blue);
+}
+
+.banner .btn:hover .arrow {
+    background-color: var(--primary-light-blue);
+}
+
+.banner .btn .btn-text {
+    transition: all 0.5s;
+}
+
+.banner .btn .arrow {
+    transition: all 0.5s;
+}
+
+.banner-roundness {
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    bottom: -200px;
+    overflow: hidden;
+    z-index: -1;
+    background: var(--banner-background) no-repeat;
+    clip-path: ellipse(calc(50vw + 150px) 50% at center);
+}
 /* hero: end */
 
 /* domains name search and price: start */
+.ds-section {
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 0;
+}
+
 .domain-name-container {
-    z-index: 1;
+    background-color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
     box-shadow: 0 0 25px var(--shadow);
     border-radius: 10px;
     padding: 35px 0;
