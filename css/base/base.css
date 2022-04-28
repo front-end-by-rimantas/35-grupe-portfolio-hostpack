@@ -14,6 +14,11 @@
     --footer-line: #344F87;
     --footer-container:  rgba(13, 35, 82, .3);
     --grey:#818181;
+    --shadow: #1868de1a;
+    --border-grey: #dee2e6;
+    --grey: #818181;
+    --light-grey: #e8e8e8;
+    --shadow-black: #0003;
 }
 
 body,
@@ -29,4 +34,8 @@ body {
     width: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
         sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
