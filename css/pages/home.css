@@ -12,23 +12,37 @@
 
 /* header: start */
 header {
-    background-color: ;
+    padding: 0;
+    background: linear-gradient(90deg, #1d0f9b 0%, #00C3FF 100%);
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    
 }
 
 nav {
-
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .nav-logo {
 
 }
 
-.nav-items {
-
+.nav-item {
+    color: var(--white);
+    text-transform: capitalize;
 }
 
 .free-trial {
-
+    padding: 10px 30px;
+    text-transform: uppercase;
+    color: var(--white);
+    border: 1px solid var(--white);
+    border-radius: 50px;
 }
 
 
