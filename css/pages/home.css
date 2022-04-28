@@ -317,8 +317,7 @@ a {
 .footer-container {
     display: flex;
     flex-direction: column;
-    gap: 13px;
-    padding: 30px 30px 32px;
+    padding: 30px;
     background-color: var(--footer-container);
 }
 
