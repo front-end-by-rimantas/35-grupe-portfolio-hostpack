@@ -3,6 +3,7 @@
 @import '../base/layout.css';
 
 /* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
 
 /* components */
 @import '../components/button.css';
@@ -487,29 +488,146 @@ nav {
 
 footer {
     width: 100%;
-    background-color: #113072;
-    background-image: url(../../footer.img/map.png);
+    background-color: var(--footer-background);
+    color: var(--white);
+    line-height: 1.5;
+    background-image: url(/img/footer/map.png);
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(26 / 16);
 }
 
-.row {
+.hostpack {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.footer-logo {
+    width: 235px;
     position: relative;
+    top: -10px;
 }
 
-.cards {
+.footer-text {
+    font-size: 18px;
+}
+
+.fa-phone-square {
+    position: relative;
+    top: 5px;
+}
+
+.footer-social {
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.footer-icon:hover {
+    color: var(--footer-blue);
+}
+
+.footer-cards-icon {
     width: 300px;
 }
 
-.certificate {
-    width: 400px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+.footer-copyright {
+    font-size: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: var(--white);
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+}
+
+.footer-section-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.footer-section-sub-title {
+    font-size: 22px;
+    margin-top: 33px;
+    margin-bottom: 20px;
+}
+
+.badges {
+    display: inline-block;
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+    padding: 2px 10px;
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 1;
+    background-color: var(--footer-blue);
+    color: var(--white);
+    border: none;
+    border-radius: 50px;
+    font-weight: 600;
+}
+
+.red-badges {
+    background-color: var(--footer-red);
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: var(--footer-container);
+}
+
+.blog-date {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: var(--footer-blue);
+}
+
+.blog {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.blog:hover {
+    color: var(--footer-blue);
+}
+
+.footer-certificate {
+    position: relative;
+}
+
+.footer-certificate::before {
+    content: '';
+    display: inline-block;
+    background-color: var( --footer-line);
+    width: 100%;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+.test {
+    display: flex;
+    gap: 220px;
+}
+
+.footer-terms {
+    color: var(--footer-blue);
+}
+
+.footer-certi-img {
+    width: 394px;
+    height: 34px;
 }
 /* footer: end */
