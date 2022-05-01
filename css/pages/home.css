@@ -118,6 +118,10 @@
     padding-right: 0;
 }
 
+.host-plans-container > .container {
+    padding-bottom: 0;
+}
+
 .host-plans-banner {
     background-image: url(../../img/host-plans/pricing.png);
     position: absolute;
@@ -144,6 +148,80 @@
 
 .hp-top-text {
     font-size: 19px;
+}
+
+
+.hp-table-container {
+    overflow-x: auto;
+}
+
+.hp-table * {
+    vertical-align: middle;
+}
+
+.hp-table {
+    min-width: 800px;
+    width: 100%;
+}
+
+.hp-table, .hp-plan-cell, .hp-content-cell {
+    border-collapse: collapse;
+}
+
+.hp-plan-cell, .hp-content-cell {
+    background-color: var(--white);
+    text-align: center;
+    border: 1px solid var(--light-grey);
+}
+
+.hp-row-tag, .hp-content-cell {
+    color: var(--dark-text);
+    font-size: 18px;
+}
+
+.hp-row-tag {
+    font-weight: bold;
+}
+
+.hp-plan-cell {
+    padding: 40px 0 35px 0;
+    font-size: 28px;
+    color: var(--primary-black);
+}
+
+.hp-content-cell {
+    padding: 20px;
+}
+
+.hp-price-row {
+    color: var(--primary-light-blue);
+}
+
+.hp-dollar, .hp-mo-tag {font-size: 18px;}
+.hp-price {font-size: 56px;}
+
+.hp-mo-tag {position: relative;}
+
+.hp-content-cell > .btn-container {
+    display: inline-block;
+}
+
+
+.hp-footer {
+    color: var(--dark-text);
+    font-size: 21px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.hp-live-bubble {
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.hp-live-chat {
+    color: var(--primary-light-blue);
+    font-size: 20px;
 }
 /* hosting plans: end */
 
