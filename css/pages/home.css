@@ -509,6 +509,7 @@ nav {
     padding-right: 0;
     background-size: cover;
     background-position: left;
+    z-index: -1;
 }
 
 .hp-top {
