@@ -130,35 +130,227 @@ nav {
 
 /* hero: start */
 .banner {
-    width: 100%;
     padding: 0;
-    background-color: var(--banner-background);
+    background-image: var(--banner-background);
+    width: 100%;
     color: var(--white);
     display: inline-block;
+    position: relative;
 }
 
-.banner > .container {
+.banner-container {
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 0;
+    overflow: hidden;
 }
 
 .banner-cloud-text {
     color: var(--primary-light-blue);
 }
 
-.banner-img-container {
+.banner-h {
+    margin-top: 100px;
+    font-size: 56px;
+    line-height: 60px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    margin-bottom: 50px;
+}
+
+.banner-text {
+    font-size: 19px;
+    margin-bottom: 40px;
+}
+
+.banner-price {
     position: relative;
 }
 
-.banner-img {
+.banner-price-underline {
+    position: absolute;
+    bottom: -15px;
+    left: -10px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.banner .btn {
+    flex-grow: 0;
+}
+
+.banner .btn:hover {
+    background-color: var(--white);
+}
+
+.banner .btn:hover path {
+    fill: var(--white);
+}
+
+.banner .btn:hover .btn-text {
+    color: var(--primary-light-blue);
+}
+
+.banner .btn:hover .arrow {
+    background-color: var(--primary-light-blue);
+}
+
+.banner .btn .btn-text {
+    transition: all 0.5s;
+}
+
+.banner .btn .arrow {
+    transition: all 0.5s;
+}
+
+.banner-works {
+    align-self: center;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 500;
+}
+
+.alt-btn {
+    background-color: var(--white);
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.alt-btn-arrow {
+    margin: 15px 18px;
+}
+
+.banner-img-container {
+    display: inline-block;
+    position: relative;
+}
+
+.banner-ratio-box {
+    margin-top: 100%;
+}
+
+.banner-img-size {
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
+}
+
+.banner-img-small {
+    display: none;
+    height: 100%;
+}
+
+@media (max-width: 766px) {
+    .banner-network-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .banner-ratio-box {
+        margin-top: 90%;
+    }
+}
+
+.banner-img-big {
+    position: absolute;
+}
+
+@media (max-width: 990px) {
+    .banner-img-small {
+        display: inline-block;
+    }
+    
+    .banner-img-big {
+        display: none;
+    }
+}
+.banner-floaty-img {
+    transform-origin: top left;
+}
+
+@media (max-width: 1199px) {
+    .banner-floaty-img {
+        transform: scale(0.86);
+        /*scale: 90.5%;*/
+    }
+}
+
+.banner-network-img {
+    height: 100%;
+}
+
+.banner-person-img {
+    left: -6%;
+    top: 51%;
+}
+
+.banner-monitor-img {
+    left: 0.5%;
+    top: 31%;
+}
+
+.banner-text-monitor-img {
+    left: 72%;
+    top: 45%;
+}
+
+.banner-box1-img {
+    left: 97%;
+    top: 45%;
+}
+
+.banner-box2-img {
+    left: 87%;
+    top: 34%;
+}
+
+.banner-box3-img {
+    left: 45%;
+    top: 12%;
+}
+
+.banner-box4-img {
+    left: 56%;
+    top: 10%;
+}
+
+.banner-roundness {
+    width: 100%;
+    position: absolute;
+    height: 400px;
+    bottom: -200px;
+    overflow: hidden;
+    z-index: -1;
+    background: var(--banner-background) no-repeat;
+    clip-path: ellipse(calc(50vw + 150px) 50% at center);
 }
 /* hero: end */
 
 /* domains name search and price: start */
-.search-form {
+.ds-section {
+    padding-top: 0;
+    padding-bottom: 0;
+    z-index: 0;
+}
+
+.domain-name-container {
+    background-color: var(--white);
+    margin-top: 0;
+    margin-bottom: 0;
+    box-shadow: 0 0 25px var(--shadow);
+    border-radius: 10px;
+    padding: 35px 0;
+}
+
+.button-form {
     border: 1px var(--light-grey) solid;
     background-color: var(--white);
     border-radius: 40px;
@@ -174,11 +366,82 @@ nav {
     flex-grow: 1;
     outline: none;
     background-color: transparent;
+    overflow: hidden;
 }
 
-.search-form > .btn-container {
+.button-form > .btn-container {
     margin: 5px;
     flex-grow: 0;
+}
+
+.button-form .btn-text {
+    transition: all .5s;
+}
+
+@media (max-width: 479px) {
+    .button-form .btn-text {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        margin: 0;
+    }
+    
+    .button-form .btn {
+        background-color: transparent;
+        padding: 0;
+        margin-right: 5px;
+    }
+
+    .button-form .svg {
+        background-color: var(--primary-light-blue);
+    }
+
+    .button-form .arrow {
+        background-color: var(--primary-light-blue);
+    }
+
+    .button-form path {
+        fill: var(--white);
+    }
+}
+
+.domain-prices {
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    transition: all .5s;
+}
+
+@media (min-width: 1199px) {
+    .domain-prices {
+        gap: 20px 30px;
+    }
+}
+
+.dp-box {
+    padding: 20px 20px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 25px rgba(24,104,222,.05);
+    transition: all .5s;
+    text-align: center;
+}
+
+.dp-box:hover {
+    box-shadow: 8px 8px 25px var(--shadow);
+}
+
+.domain-type {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.domain-price {
+    color: #70799f;
+    font-size: 18px;
+    font-weight: bold;
 }
 /* domains name search and price: end */
 
@@ -504,7 +767,7 @@ nav {
     background-color: var(--white);
     padding: 8px 15px;
     border-radius: 5px;
-    box-shadow: 0 0 30px rgba(24,104,222,.1);
+    box-shadow: 0 0 30px var(--shadow);
     font-size: 16px;
 }
 

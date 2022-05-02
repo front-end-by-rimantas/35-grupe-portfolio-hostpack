@@ -7,7 +7,7 @@
     --light-green: #1AE5BE;
     --dark-orange: #FF433C;
     --dark-text: #666;
-    --banner-background: #339;
+    --banner-background: linear-gradient(to right, #1d0f9b, #00c3ff);
     --footer-background: #113072;
     --footer-blue: #00c3ff;
     --footer-red: #ff433c;
