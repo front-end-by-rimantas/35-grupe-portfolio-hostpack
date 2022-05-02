@@ -266,6 +266,53 @@ nav {
 /* review - success rating: end */
 
 /* Our best services: start */
+.bg-best-services {
+    background-image: url(../../img/best-services/service_bg.png);
+    margin-top: -50px;
+    background-size: cover;
+    padding-top: 50px;
+    opacity: .8;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.center {
+    text-align: center;
+}
+
+.best-services-header {
+    color: white;
+    font-size: 50px;
+}
+
+.best-services-paragraph {
+    color: white;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.best-services-grid {
+    justify-content: center; 
+}
+
+.best-services-box {    
+    height: 250px;
+    border: 1px solid rgba(0, 0, 255, 0.63);
+    padding: 70px 0;
+    text-align: center;
+}
+
+.best-services-box:hover {
+    background-color: rgba(80, 80, 255, 0.712);
+    transition: 0.5s ease-in-out;
+}
+
+.best-services-text {
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 /* Our best services: end */
 
 /* Start with Hostpack: start */
