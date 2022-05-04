@@ -358,6 +358,10 @@ nav {
     flex-wrap: nowrap;
 }
 
+.button-form .btn {
+    border: none;
+}
+
 .input-field {
     padding: 20px;
     border: 0;
@@ -509,6 +513,7 @@ nav {
     padding-right: 0;
     background-size: cover;
     background-position: left;
+    z-index: -1;
 }
 
 .hp-top {
